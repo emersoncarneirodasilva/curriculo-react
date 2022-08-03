@@ -14,7 +14,7 @@ const Sidebar = () => {
       <InformationContainer />
       <p className="title-second">Idiomas</p>
       <LanguesContainer />
-      <a href="../../public/curriculo-02.pdf" download="curriculo-02.pdf" className="btn">Download Currículo</a>
+      <a href="/curriculo-02.pdf" download="curriculo-02.pdf" className="btn">Download Currículo</a>
     </aside>
   );
 };
