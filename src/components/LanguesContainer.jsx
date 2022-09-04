@@ -10,7 +10,7 @@ const LanguesContainer = () => {
       </div>
       <div>
         <h3>Inglês</h3>
-        <p>Lê e compreende o básico da lígua inglesa.</p>
+        <p>Lê e compreende o básico da língua inglesa.</p>
       </div>
     </section>
   );
