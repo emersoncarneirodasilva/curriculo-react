@@ -1,14 +1,44 @@
-import { DiHtml5, DiCss3, DiJsBadge, DiReact, } from "react-icons/di";
-import { SiTypescript, SiNextdotjs } from "react-icons/si";
+import { DiHtml5, DiCss3, DiJsBadge, DiReact } from "react-icons/di";
+import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 import "../styles/components/technologiescontainer.sass";
 
 const technologies = [
-  { id: "html", name: "HTML5", icon: <DiHtml5 />, text: "Possui ótimo conhecimento na linguagem de marcação HTML." },
-  { id: "css", name: "CSS3", icon: <DiCss3 />, text: "Possui ótimo conhecimento na linguagem de estilização CSS." },
-  { id: "js", name: "JavaScript", icon: <DiJsBadge />, text: "Possui bom conhecimento na linguagem de programação JavaScript." },
-  { id: "typescript", name: "TypeScript", icon: <SiTypescript />, text: "Possui pouco conhecimento no superset do JavaScript, TypeScript." },
-  { id: "react", name: "React.JS", icon: <DiReact />, text: "Possui bom conhecimento na biblioteca JavaScript, React." },
-  { id: "next", name: "Next.JS", icon: <SiNextdotjs />, text: "Possui conhecimento aceitável no framework React, Next." },  
+  {
+    id: "html",
+    name: "HTML5",
+    icon: <DiHtml5 />,
+    text: "Possui ótimo conhecimento na linguagem de marcação HTML.",
+  },
+  {
+    id: "css",
+    name: "CSS3",
+    icon: <DiCss3 />,
+    text: "Possui ótimo conhecimento na linguagem de estilização CSS.",
+  },
+  {
+    id: "js",
+    name: "JavaScript",
+    icon: <DiJsBadge />,
+    text: "Possui bom conhecimento na linguagem de programação JavaScript.",
+  },
+  {
+    id: "tailwind",
+    name: "Tailwind.CSS",
+    icon: <SiTailwindcss />,
+    text: "Possui bom conhecimento no framework CSS, Tailwind.",
+  },
+  {
+    id: "react",
+    name: "React.JS",
+    icon: <DiReact />,
+    text: "Possui bom conhecimento na biblioteca JavaScript, React.",
+  },
+  {
+    id: "next",
+    name: "Next.JS",
+    icon: <SiNextdotjs />,
+    text: "Possui pouco conhecimento no framework React, Next.",
+  },
 ];
 
 const TechnologiesContainer = () => {

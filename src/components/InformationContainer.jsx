@@ -1,10 +1,10 @@
-import React from 'react';
-import '../styles/components/informationcontainer.sass';
-import { AiFillPhone, AiOutlineMail, AiFillEnvironment } from 'react-icons/ai';
+import React from "react";
+import "../styles/components/informationcontainer.sass";
+import { AiFillPhone, AiOutlineMail, AiFillEnvironment } from "react-icons/ai";
 
 const InformationContainer = () => {
   return (
-    <section id="information">      
+    <section id="information">
       <div className="info-card">
         <AiFillPhone id="phone-icon" />
         <div>
